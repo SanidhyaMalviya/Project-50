@@ -1,0 +1,97 @@
+/* *{
+    border:solid;
+} */
+
+.ham a{
+    color: white;
+    margin-left: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;;
+}
+
+.title {
+    margin-left: 70px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.menu a{
+    padding-right: 10px;
+    padding-top: 15px;
+    color: white;
+}
+
+body{
+    background-color:#fcf2e9;
+}
+
+.bodyimg{
+    background-image: url("images/body.jpg");
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 110px;
+}
+
+.bodyimg h1{
+    font-family: cursive;
+    font-size: xx-large;
+    color: white;
+}    
+
+.bodyimg h3{
+    font-family: cursive;
+    font-size: large;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: left;
+    flex-wrap: wrap;
+    /* background-color: #F0F8FF; */
+}
+
+.grid img{
+    margin-top: 20px;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: white;
+    width: 350px;
+    font-family: fantasy;
+    /* margin-left: 20px; */
+    margin: 30px;
+}
+
+p{
+    color:dimgrey;
+}
+
+h3{
+    color:white;
+}
+
+h6{
+    color: white;
+}
+
+li{
+    color:rgb(0, 63, 97);
+}
